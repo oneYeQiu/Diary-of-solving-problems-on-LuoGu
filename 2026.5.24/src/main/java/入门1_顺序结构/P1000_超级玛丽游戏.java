@@ -1,3 +1,5 @@
+package 入门1_顺序结构;
+
 public class P1000_超级玛丽游戏 {
     public static void main(String[] args) {
         System.out.println("                ********\n" +

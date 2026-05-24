@@ -1,3 +1,5 @@
+package 入门1_顺序结构;
+
 import java.util.Scanner;
 // todo 错误
 public class P5707_深基2例12_上学迟到 {

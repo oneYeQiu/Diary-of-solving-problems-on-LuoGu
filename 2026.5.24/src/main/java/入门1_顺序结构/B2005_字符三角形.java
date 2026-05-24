@@ -1,3 +1,5 @@
+package 入门1_顺序结构;
+
 import java.util.Scanner;
 
 public class B2005_字符三角形 {

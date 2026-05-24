@@ -1,3 +1,5 @@
+package 入门1_顺序结构;
+
 import java.util.Scanner;
 
 public class $$$P5708_深基2习2三角形面积 {

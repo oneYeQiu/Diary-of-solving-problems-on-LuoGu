@@ -1,3 +1,5 @@
+package 入门1_顺序结构;
+
 import java.util.Scanner;
 
 public class P5706_深基2例8_再分肥宅水 {
