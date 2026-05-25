@@ -1,8 +1,8 @@
 package 入门2_分支结构;
-// todo 错误 要求 约分 gcd函数
+
 import java.util.Scanner;
 
-public class P1888_三角函数 {
+public class P4414_COC_2006_2007_2_ABC {
 
     public static int[] sort(int a, int b, int c) {
         if(a > b){
@@ -28,26 +28,22 @@ public class P1888_三角函数 {
         }
     }
 
-    public static int gcd(int a, int b){
-
-        while(b != 0){
-            int t = a % b;
-            a = b;
-            b = t;
-        }
-        return a;
-    }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-
-        int[] arr = sort(a,b,c);
-
-        int g = gcd(arr[0], arr[2]);
-        System.out.println(arr[0]/g + "/" + arr[2]/g);
-
+        String str = sc.next();
+        char[] arr2 = str.toCharArray();
+        int[] arr = sort(a, b, c);
+        for (int i = 0; i < 3; i++) {
+            if(arr2[i] == 'A'){
+                System.out.print(arr[0] + " ");
+            } else if (arr2[i] == 'B') {
+                System.out.print(arr[1] + " ");
+            } else if (arr2[i] == 'C') {
+                System.out.print(arr[2] + " ");
+            }
+        }
     }
 }
