@@ -6,9 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="2026.5.24" />
         <module name="2026.5.25" />
         <module name="2026.5.26" />
-        <module name="2026.5.24" />
+        <module name="2026.5.27" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="21" />
